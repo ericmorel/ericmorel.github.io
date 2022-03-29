@@ -23,11 +23,11 @@
       <div class="py-5">
         <div class="row justify-content-center text-center py-3">
           <div class="col-12 col-md-10">
-            <h4>DAVOS-KLOSTERS, SWITZERLAND</h4>
+            <h4>DAVOS, SWITZERLAND</h4>
             <h1 class="display-4">Join Polkadot at the World Economic Forum Annual Meeting</h1>
             <p class="h2 mb-4">22—26 May 2022</p>
             <div class="d-flex justify-content-center mb-4">
-              <div class="px-1"><a class="btn btn-lg btn-primary" href="">Keep me updated</a></div>
+              <div class="px-1"><a class="btn btn-lg btn-primary" href="" data-toggle="modal" data-target="#exampleModal">Keep me updated</a></div>
               <div class="px-1"><a class="btn btn-lg btn-outline-primary" href="#program">View the program</a></div>
             </div>
             <div class="d-flex justify-content-center">
@@ -43,11 +43,12 @@
       </div>
     </div>
   </div>
-  <div class="bg-light row justify-content-center text-center py-5" id="program">
+
+  <div class="bg-light row justify-content-center text-center pt-5" id="program">
     <div class="col-12 col-md-8 col-lg-6">
       <h1>With talks by some of the blockchain industry’s foremost builders</h1>
-      <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.</p>
+      <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="lead mb-0"><strong>Location: </strong><a href="">Sertigerstrasse 34, 7272 Davos Clavadel, Switzerland</a></p>
     </div>
   </div>
 
@@ -88,7 +89,7 @@
                 </div>
               </td>
               <td>
-                <a class="btn btn-sm btn-outline-primary" href="">Register now</a>
+                <a class="btn btn-sm btn-outline-primary" href="">Register now</a><br><p class="badge badge-success mb-0">Eventbrite link</p>
               </td>
             </tr>
             <tr>
@@ -1000,7 +1001,7 @@
           </div>
           <div class="col-12 col-md-8">
             <div>
-              <div class="px-1 mb-2"><a class="btn btn-lg btn-primary" href="">Yes, keep me updated</a></div>
+              <div class="px-1 mb-2"><a class="btn btn-lg btn-primary" href=""  data-toggle="modal" data-target="#exampleModal">Yes, keep me updated</a></div>
               <div class="px-1">
                 <p class="badge badge-success mb-0">Opens modal with registration form</p>
               </div>
@@ -1017,7 +1018,31 @@
     </div>
   </div>
 
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="close" data-dismiss="modal" aria-label="Close"><img src="./assets/glyphs/close.svg" width="24"></div>
+        <div class="modal-body">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h1 class="text-center">News & Updates About Polkadot at WEF22</h1>
+              <form>
+                <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="First name"></div>
+                <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Last name"></div>
+                <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Email"></div>
+                <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Company"></div>
+                <div class="form-group custom-control"><label class="custom-checkbox mb-0"><input class="custom-control-input" type="checkbox">
+                    <div class="custom-control-label small"><strong>Disclaimer</strong>—Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  </label></div><button class="btn btn-lg btn-primary btn-block">Keep me updated</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+</div>
 
 </body>
 
